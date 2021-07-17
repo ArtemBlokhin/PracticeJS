@@ -1,9 +1,61 @@
-body, html {
+
+body,
+html {
     height: 100%;
+    background-color: #ff7f50;
+    margin-left:20px;
+    margin-right:20px;
 }
 
 #container {
     width: 100%;
     margin: auto;
     height: 100%;
+}
+.chat-header{
+    font-size: 30px;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+.chat-messages {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-color: #f0f9ff;
+}
+.chat-message {
+    min-height: 22px;
+    padding-left: 16px;
+    background-color:#f5deb3;
+    border:1px solid #000000;
+    border-radius: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width:450px;
+    margin-bottom: 10px;
+}
+.chat-messages-empty {
+  padding: 20px;
+  color: #000000;
+}
+.chat-message-time {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    float: right;
+    margin-right: 16px;
+}
+.chat-message-author {
+    font-size: 15px;
+    color: rgb(102, 102, 102);   
+}
+.users {
+    align-items: left;
+}
+.chat-userslist {
+    background-color:#ffffff;
+    border:1px solid #000000;
+    border-radius: 5px;
+    width:200px;
+    float: right;
+    margin-right: 13px;
 }
