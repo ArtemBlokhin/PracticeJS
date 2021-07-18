@@ -7,6 +7,9 @@ var ChatMessage = React.createClass({
         var message = this.props.message;
         var hours = message.date.getHours();
         var minutes = message.date.getMinutes();
+        if(minutes<10){
+            minutes = "0" + minutes;
+        }
         return (
             <div className="chat-message">
                 <div className="chat-message-time">{hours + ':' + minutes}</div> 

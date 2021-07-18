@@ -39,7 +39,7 @@ var MessagesList = React.createClass({
                         </div>
         }
         return (
-            <div ref="msgContainer" className="chat messages col-xs-9 col-md-8 col-lg-8">
+            <div ref="msgContainer" className="chat-messages col-xs-9 col-md-8 col-lg-8">
                 {messages}    
             </div>
         )
